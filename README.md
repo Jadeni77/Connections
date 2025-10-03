@@ -24,7 +24,9 @@ syntax to run the program on the local desktop with dependency on mutable states
 * **javalib.worldimages** - Provides world images for component rendering such as RectangleImage, TextImage,...
 
 ## ⚙️ To run the game locally
-* In terminal: java -cp lib/javalib.jar:src App
+* In terminal:
+   * javac -cp lib/javalib.jar src/*.java
+   * java -cp lib/javalib.jar:src App
 
 ## 👥 Contributors
 <table>
@@ -35,7 +37,13 @@ syntax to run the program on the local desktop with dependency on mutable states
         Jaden Mei
       </a>
     </td>
-  
+    <td align="center">
+      <a href="https://github.com/lxyan636" target="_blank">
+        <img src="https://github.com/lxyan636.png" width="60px" style="border-radius:50%;" /><br />
+        Dori Lin
+      </a>
+    </td>
+    
   </tr>
 </table>
 
